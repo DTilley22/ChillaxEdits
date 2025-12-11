@@ -1,5 +1,5 @@
 /*floating user controls*/
-.container__37e49 {
+/* .container__37e49 {
     background: transparent !important;
 }
 
@@ -15,7 +15,7 @@ html.theme-dark .panels__5e434 {
 html.theme-light .panels__5e434 {
     background: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
-}
+} */
 
 /* Dynamically re adjusting the position and width for new UI based on sidebar width */
 .sidebar__5e434 {
@@ -71,20 +71,20 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 /*}*/
 
 /* Hide all immediate children */
-.panels__5e434 .buttons__37e49 > * {
+/* .panels__5e434 .buttons__37e49 > * {
     opacity: 0;
     transition: all 0.3s;
-}
+} */
 
 /* Make the last child (settings icon) visible by default */
-.panels__5e434 .buttons__37e49 > :nth-last-child(2) {
+/* .panels__5e434 .buttons__37e49 > :nth-last-child(2) {
     opacity: 1;
-}
+} */
 
 /* When hovering over the container, show all children */
-.panels__5e434 .buttons__37e49:hover > * {
+/* .panels__5e434 .buttons__37e49:hover > * {
     opacity: 1;
-}
+} */
 
 .buttons__37e49 {
     width: 100%;
